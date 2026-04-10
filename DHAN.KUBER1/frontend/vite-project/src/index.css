@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+    --page-bg: #f3f6ef;
+    --ink-900: #0f1720;
+    --ink-700: #39515b;
+    --card: rgba(255, 255, 255, 0.8);
+    --line: rgba(15, 23, 32, 0.08);
+    --accent: #0f766e;
+    --accent-soft: #d7f5ee;
+    --sun: #f3b95f;
+  }
+
+  html {
+    background:
+      radial-gradient(circle at top left, rgba(24, 160, 140, 0.18), transparent 32%),
+      radial-gradient(circle at top right, rgba(243, 185, 95, 0.18), transparent 28%),
+      linear-gradient(180deg, #f8fbf6 0%, #eef3ea 100%);
+    min-height: 100%;
+  }
+
+  body {
+    @apply text-slate-900 antialiased;
+    background: transparent;
+    font-family: "Segoe UI", "Trebuchet MS", Verdana, sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: Georgia, "Times New Roman", serif;
+    letter-spacing: -0.02em;
+  }
+
+  #root {
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  .app-shell {
+    @apply min-h-screen;
+    background:
+      radial-gradient(circle at top left, rgba(16, 185, 129, 0.08), transparent 26%),
+      radial-gradient(circle at bottom right, rgba(37, 99, 235, 0.08), transparent 26%);
+  }
+
+  .glass-panel {
+    background: rgba(255, 255, 255, 0.72);
+    border: 1px solid rgba(15, 23, 32, 0.08);
+    box-shadow: 0 24px 60px rgba(15, 23, 32, 0.08);
+    backdrop-filter: blur(18px);
+  }
+
+  .soft-card {
+    @apply rounded-[1.75rem] border border-white/70 bg-white/80 shadow-[0_18px_55px_rgba(15,23,32,0.08)] backdrop-blur;
+  }
+
+  .section-kicker {
+    @apply text-[0.72rem] font-semibold uppercase tracking-[0.32em] text-slate-500;
+  }
+
+  .page-title {
+    @apply text-3xl font-black text-slate-950 sm:text-4xl;
+  }
+
+  .page-subtitle {
+    @apply max-w-2xl text-sm leading-6 text-slate-600 sm:text-base;
+  }
+}

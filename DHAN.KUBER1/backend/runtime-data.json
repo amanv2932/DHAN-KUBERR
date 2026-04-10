@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "_id": "local-1775495375190",
+      "name": "Final User",
+      "email": "final@example.com",
+      "password": "$2b$10$wD7YxVT2o2bbgbgIiyuBQO4GylWywPSXQ798k06onIawD4hecLD4y"
+    },
+    {
+      "_id": "local-1775495522697",
+      "name": "Debug User",
+      "email": "debug@example.com",
+      "password": "$2b$10$RVq4OVSqtkQo3bokBnk24.7yHGNV6Ggf/NBdM.tRwrJDSIcdL3jSy"
+    },
+    {
+      "_id": "local-1775495567023",
+      "name": "Fresh User",
+      "email": "fresh1775495566500@example.com",
+      "password": "$2b$10$8i/d/uaVPrGmwNHrzRo2IOsaABYfHMr2uxUBYFwNnSa3iRCkAvNWS"
+    },
+    {
+      "_id": "local-1775495695023",
+      "name": "Browser User",
+      "email": "browser1775495694576@example.com",
+      "password": "$2b$10$uyA/TYAE4Jzr1QG7cuwpTOqhp7xBiicaUcih15534SGTYWxEkrimu"
+    },
+    {
+      "_id": "local-1775495977555",
+      "name": "Fixed User",
+      "email": "fixed1775495977182@example.com",
+      "password": "$2b$10$/zlsB0amw1clF1YA7iQ1zuNTvwjdXJ4ZPFbbf/EqQJwfMJYGft8Nm"
+    },
+    {
+      "_id": "local-1775496037458",
+      "name": "aman verma",
+      "email": "amanv2932@gmail.com",
+      "password": "$2b$10$B8lowZ7nwDCwqDcA8ED3beAiNZwJThBp.W3pT8qEilx1yzzTMFFnm"
+    }
+  ],
+  "transactions": [
+    {
+      "date": "4 april",
+      "type": "rent",
+      "amount": 5000
+    },
+    {
+      "date": "12 Apr",
+      "type": "Food",
+      "amount": 500
+    },
+    {
+      "date": "10 Apr",
+      "type": "Rent",
+      "amount": 15000
+    }
+  ],
+  "finance": {
+    "income": 50000,
+    "expenses": 35000,
+    "savings": 120000
+  }
+}
