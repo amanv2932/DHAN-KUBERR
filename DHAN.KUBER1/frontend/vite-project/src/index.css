@@ -18,8 +18,8 @@
   html {
     background:
       radial-gradient(circle at top left, rgba(24, 160, 140, 0.18), transparent 32%),
-      radial-gradient(circle at top right, rgba(243, 185, 95, 0.18), transparent 28%),
-      linear-gradient(180deg, #f8fbf6 0%, #eef3ea 100%);
+      radial-gradient(circle at top right, rgba(243, 185, 95, 0.18), transparent 28%),  
+        linear-gradient(180deg, #f8fbf6 0%, #eef3ea 100%);
     min-height: 100%;
   }
 
